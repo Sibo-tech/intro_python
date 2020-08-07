@@ -1,0 +1,13 @@
+w1= float(input("Enter width 1: "))
+h1= float(input("Enter height 1: "))
+w2= float(input("Enter width 2: "))
+h2= float(input("Enter height 2: "))
+pp= float(input("Enter price per metre: "))
+width1= 2*w1
+width2= 2*w2
+heights= 2*h1
+fw= width2+width1
+fence= fw+heights
+price= pp*fence
+print("The total fence required = "+ str (fence) +" meters")
+print("The total price = R"+ str(price)+"")

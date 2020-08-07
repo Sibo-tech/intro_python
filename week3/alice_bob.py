@@ -1,0 +1,5 @@
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+alicescore=sum([(1 if a[i]>b[i] else 0) for i in range(3)])
+bobscore= sum([(1 if a[i]<b[i] else 0) for i in range(3)])
+print(alicescore,bobscore)
